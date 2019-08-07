@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { confetti } from "dom-confetti";
 
 const style = {
-  position: "relative"
+  position: "relative",
+  display: "flex",
+  justifyContent: "center"
 };
 
 export default class Confetti extends Component {
